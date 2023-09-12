@@ -1,0 +1,73 @@
+//----------------------- animacao do objecto
+uniform float teta;
+uniform float fi;
+uniform mat4 rotacao;
+uniform mat4 rotacao2;
+
+//----------------------- para passar ao Fshader
+varying vec3 vNormal;
+varying vec3 vVertex;
+
+void main(void) {
+
+	// ---------------------------- guardar as posicoes dos pontos para calcular as normais no fshader 
+	vVertex = vec3(gl_ModelViewMatrix * gl_Vertex);
+   	vNormal = gl_Normal;
+
+	vec4 v = gl_Vertex;
+	gl_TexCoord[0] = gl_MultiTexCoord0; // aplicar texturas
+
+	// ------------------------------------------------------ ANIMACOES ---------------------------------------------------------------
+
+	// --------------------------------------------------------------- animacao da piramide principal
+	if(v.y != 20 && v.y != -5 && v.y != -40){
+		if(v.x != 4 && v.x != -4 && v.z != 4 && v.z != -4){
+		
+			if(v.x > 0 && v.z > 0){
+
+				v.x = 25*cos(0)*sin(teta) - 0.01;
+				v.y = 25*cos(teta);
+				v.z = 25*sin(90)*sin(teta) - 0.01;
+			}
+			else if(v.x < 0 && v.z > 0){
+
+				v.x = -25*cos(0)*sin(teta) + 0.01;
+				v.y = 25*cos(teta);
+				v.z = 25*sin(45)*sin(teta) - 0.01;
+			}
+			else if(v.x < 0 && v.z < 0){
+
+				v.x = -25*cos(0)*sin(teta) + 0.01;
+				v.y = 25*cos(teta);
+				v.z = -25*sin(90)*sin(teta) + 0.01;
+			}
+			else if(v.x > 0 && v.z < 0){
+	
+				v.x = 25*cos(0)*sin(teta) + 0.01;
+				v.y = 25*cos(teta);
+				v.z = -25*sin(90)*sin(teta) - 0.01;
+			}
+		}
+
+		// -------------------------------- animacao do cristal interno
+		else {
+			
+			// ---------------------------- vertices da base
+			v *= rotacao;
+			v.y += 2*cos(fi);
+		}
+
+		if( (v.x == 0 && v.z == 0 && v.y == 12) || (v.x == 0 && v.z == 0 && v.y == 2) ){
+
+			// ---------------------------- vertices dos extremos
+			v *= rotacao;
+			v.y += 2*cos(fi);
+		}
+	}
+	else {
+		v.yx += sin(fi);
+		v = rotacao2 * v;
+	}
+	
+	gl_Position = gl_ModelViewProjectionMatrix * v;
+}

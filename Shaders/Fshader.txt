@@ -1,0 +1,45 @@
+//------------------------ variaveis oriundas do openGL
+uniform sampler2D text;
+uniform float luz;
+uniform vec4 pontual;
+uniform vec4 direcional;
+
+//------------------------ Vshader
+varying vec3 vNormal;
+varying vec3 vVertex;
+
+//---------------------------- Variaveis locais
+float intensity;
+vec3 direcaoLuz;
+
+void main(void) {
+	
+	vec3 cor = texture2D( text,  gl_TexCoord[0].st ).rgb;
+	if( gl_FragCoord.y <= 360){
+	
+		vec3 nNormal = normalize( vNormal );
+		
+		if(luz == 1){
+   			direcaoLuz = normalize(pontual.xyz - vVertex);
+		}
+		else {
+   			direcaoLuz = normalize( direcional );
+		}
+
+		// ----------------------------- Calcular difusa
+		intensity = max(nNormal[0]*direcaoLuz[0] + nNormal[1]*direcaoLuz[1] + nNormal[2]*direcaoLuz[2], 0.0);
+		gl_FragColor = vec4( cor * intensity, 1.0);		
+	}
+
+	if( gl_FragCoord.y >= 360){
+
+		// ---------------------------------------- Transparencia
+		gl_FragColor = vec4( cor, 0.1 );
+	}
+
+	if( gl_FragCoord.y >= 410){
+
+		// ---------------------------------------- cor solida
+		gl_FragColor = vec4( 0, 1, 0, 1 );
+	}
+}

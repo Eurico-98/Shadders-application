@@ -1,0 +1,65 @@
+﻿  porta.cpp
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\RgbImage.cpp(182,10): warning C4101: 'err': unreferenced local variable
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(22,40): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(33,46): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(43,27): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(46,28): warning C4838: conversion from 'GLint' to 'GLfloat' requires a narrowing conversion
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(46,28): warning C4244: 'initializing': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(46,34): warning C4838: conversion from 'GLint' to 'GLfloat' requires a narrowing conversion
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(46,34): warning C4244: 'initializing': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(46,40): warning C4838: conversion from 'GLint' to 'GLfloat' requires a narrowing conversion
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(46,40): warning C4244: 'initializing': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(47,28): warning C4838: conversion from 'GLint' to 'GLfloat' requires a narrowing conversion
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(47,28): warning C4244: 'initializing': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(47,34): warning C4838: conversion from 'GLint' to 'GLfloat' requires a narrowing conversion
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(47,34): warning C4244: 'initializing': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(47,40): warning C4838: conversion from 'GLint' to 'GLfloat' requires a narrowing conversion
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(47,40): warning C4244: 'initializing': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(53,51): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(54,53): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(55,53): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(56,25): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(59,45): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(60,50): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(61,51): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(62,16): warning C4244: 'initializing': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(65,41): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(66,44): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(67,40): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(68,18): warning C4244: 'initializing': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(71,45): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(72,50): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(73,52): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(74,24): warning C4244: 'initializing': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(302,1): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(715,1): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(880,49): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(891,20): warning C4838: conversion from 'GLint' to 'GLfloat' requires a narrowing conversion
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(891,20): warning C4244: 'initializing': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(897,24): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(963,47): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(970,38): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(977,47): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1000,30): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1001,31): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1014,17): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1016,17): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1038,16): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1245,23): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1246,54): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1251,23): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1260,28): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1261,28): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1262,28): warning C4305: '=': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1286,31): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1321,21): warning C4244: '=': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1327,22): warning C4244: '=': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1333,20): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1339,20): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1354,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1355,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1358,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1359,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1383,20): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\porta\porta.cpp(1384,20): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  porta.vcxproj -> C:\Users\eurico\Desktop\Fac\Faculdade\Licenciatura\3 ano\1 semestre\CG\projecto\porta\Debug\porta.exe
